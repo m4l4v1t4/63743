@@ -1,11 +1,4 @@
 <?php
-/*
-	b374k shell
-	Jayalah Indonesiaku
-	(c)2014
-	https://github.com/b374k/b374k
-
-*/
 $GLOBALS['packer']['title'] = "b374k shell packer";
 $GLOBALS['packer']['version'] = "0.4.2";
 $GLOBALS['packer']['base_dir'] = "./base/";
@@ -581,5 +574,3 @@ function packer_b374k($output, $phpcode, $htmlcode, $strip, $base64, $compress, 
 	}
 	return "error{[|b374k|]}";
 }
-
-?>
